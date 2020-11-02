@@ -13,7 +13,7 @@ def fib_yield(max):
         max -= 1
         yield a    #返回a值
 
-def fib_yield_for(n):
+def fib_yield_for(n):  # 能去掉n或者上面的max吗？
     a, b = 0,1
     for _ in range(n):
         a, b = b,a+b
